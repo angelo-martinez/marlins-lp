@@ -4,7 +4,7 @@
   vertical-align: bottom;
 }
 
-.row {
+.row:not(:last-of-type) {
   margin-bottom: 2.5rem;
 }
 
@@ -16,5 +16,11 @@
     max-width: 90rem;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  &.wrapper--hero {
+    @media screen and #{$desktop_media_query} {
+      max-width: 50rem;
+    }
   }
 }

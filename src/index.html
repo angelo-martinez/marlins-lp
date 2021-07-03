@@ -16,9 +16,43 @@
     <title>Miami Marlins</title>
   </head>
   <body>
-    <div class="wrapper">
-      <h1>Miami Marlins</h1>
-    </div>
+    <header class="header">
+      <div class="logo">
+        <img class="fluid-img js-team-logo" alt="Marlins logo" />
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-img js-hero-img"></div>
+      <div class="hero-content">
+        <div class="wrapper wrapper--hero">
+          <div class="row">
+            <h1 class="title js-team-name"></h1>
+          </div>
+          <div class="row">
+            <div class="divider"></div>
+          </div>
+          <div class="row">
+            <h2 class="sub-title">
+              Established: <span class="js-year"></span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrapper wrapper--fixed">
+        <div class="row">
+          <h2 class="section__title">
+            About the <span class="js-team-name"></span>
+          </h2>
+        </div>
+        <div class="row">
+          <p class="copy js-team-desc"></p>
+        </div>
+      </div>
+    </section>
 
     <script src="./index.js"></script>
   </body>

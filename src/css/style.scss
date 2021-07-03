@@ -1,2 +1,6 @@
+$desktop_media_query: '(min-width: 700px)';
+$mobile_media_query: '(max-width: 699px)';
+
 @import 'base';
 @import 'objects';
+@import 'components';
