@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
     <link href="./css/style.scss" rel="stylesheet" />
@@ -41,15 +43,43 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section u-text-center">
       <div class="wrapper wrapper--fixed">
         <div class="row">
-          <h2 class="section__title">
-            About the <span class="js-team-name"></span>
-          </h2>
+          <h2 class="title">About the <span class="js-team-name"></span></h2>
+        </div>
+        <div class="row">
+          <div class="divider"></div>
         </div>
         <div class="row">
           <p class="copy js-team-desc"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--grey">
+      <div class="wrapper wrapper--fixed">
+        <div class="row">
+          <h2 class="title u-text-center">Fun facts</h2>
+        </div>
+        <div class="row">
+          <div class="divider"></div>
+        </div>
+        <div class="row">
+          <div class="side-by-side">
+            <div class="side-by-side__img js-stadium-img"></div>
+            <ul class="side-by-side__list">
+              <li>
+                <strong>Manager:</strong> <span class="js-manager"></span>
+              </li>
+              <li>
+                <strong>Stadium:</strong> <span class="js-stadium"></span>
+              </li>
+              <li>
+                <strong>Capacity:</strong> <span class="js-stadium-cap"></span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
